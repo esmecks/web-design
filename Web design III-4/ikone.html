@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        body{
+          margin: 0;
+          padding: 0;
+          background: #333;
+        }
+        ul{
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          margin: 0;
+          padding: 0;
+          display: flex;
+       }
+       ul li{
+          list-style: none;
+          margin: 0 30px;
+       }
+       ul li a .fa{
+          font-size: 30px;
+
+          color: #262626;
+          line-height: 50px;
+          transition: 0.5s;
+       }
+       ul li a{
+          position: relative;
+          display: block;
+          width: 50px;
+          height: 50px;
+          background: #fff;
+          text-align: center;
+          transform: perspective(1000px) skew(20deg) translate(0,0);
+          transition: .5s;
+          box-shadow: -10px 10px 5px rgba(0,0,0,.5);
+       }
+       ul li a:before{
+          content: '';
+          position: absolute;
+          top: 5px;
+          left: -10px;
+          height: 100%;
+          width: 10px;
+          background: #cecece;
+
+          transition: .5s;
+          transform: rotate(0deg) skewY(-45deg);
+       }
+       ul li a:after{
+          content: '';
+          position: absolute;
+          bottom: -10px;
+          left: -5px;
+          height: 10px;
+          width: 100%;
+          background: #b1b1b1;
+          transition: .5s;
+          transform: skewX(-45deg);
+       }
+       ul li a:hover{
+          transform: perspective(1000px) skew(20deg) translate(0px,-8px);
+          box-shadow: -20px 20px 20px rgba(0,0,0,.5);
+       }
+       ul li:hover .fa{
+          color: #fff;
+       }
+       ul li:hover:nth-child(1) a{
+          background: #3b5999;
+       }
+       ul li:hover:nth-child(1) a:before {
+          background: #324b81;
+       }
+       ul li:hover:nth-child(1) a:after{
+          background: #24355c;
+       }
+       ul li:hover:nth-child(2) a{
+          background: #55acee;
+       }
+       ul li:hover:nth-child(2) a:before{
+          background: #2e99ea;
+       }
+       ul li:hover:nth-child(2) a:after{
+          background: #157fd1;
+       }
+       ul li:hover:nth-child(3) a{
+           background: #e4405f;
+       }
+       ul li:hover:nth-child(3) a:before{
+          background: #df2043;
+       }
+       ul li:hover:nth-child(3) a:after{
+          background: #b31936;
+       }
+       ul li:hover:nth-child(4) a{
+          background: #0077B5;
+       }
+       ul li:hover:nth-child(4) a:before{
+          background: #005380;
+       }
+       ul li:hover:nth-child(4) a:after{
+          background: #004266;
+       }
+    </style>
+        <title>Društvene mreže</title>
+    </head>
+
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<ul>
+<li>
+  <a href="https://hr-hr.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+</li>        
+<li>
+<a href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a>
+</li>        
+<li>
+<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+</li>
+<li>
+<a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+</li>
+</ul>
+        
+</body>
+
+</html>

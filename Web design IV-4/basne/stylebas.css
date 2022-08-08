@@ -1,0 +1,64 @@
+body{
+height: 100%;
+}
+.parallax{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Page_39_illustration_to_Three_hundred_Aesop%27s_fables_%28Townsend%29.png/716px-Page_39_illustration_to_Three_hundred_Aesop%27s_fables_%28Townsend%29.png);
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-attachment: fixed;
+    background-size: cover;
+}
+img{
+    height: 15%;
+}
+ul{
+    background-color: beige;
+    list-style-type: none;
+    text-align: left;
+    text-decoration-color: darkolivegreen;
+}
+    ul{
+        text-align: left;
+        padding: 3px;
+    }
+li{
+    display: inline-block;
+}
+li a{
+    display: inline-block;
+    text-decoration: black;
+    padding: 15px;
+    text-align: left;
+    font-family: serif;
+    color: rgb(65, 35, 0);
+    background-color: cornsilk;
+    background-size: 100%;
+    
+}
+li a:hover{
+    background-color: darkgray;
+}
+
+.yesh{
+    background-color: blanchedalmond;
+    background-size: 100%;
+    align-items: center;
+    background-attachment: scroll;
+}
+img{
+    size: 45%;
+    filter: blur(1px);
+    width: 30%;
+    height: 35%;
+    padding: 1%;
+    text-align: center;
+}
+img a:hover{
+    filter: blur(0.5px);
+    
+}

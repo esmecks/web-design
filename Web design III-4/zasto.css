@@ -1,0 +1,45 @@
+header h1{
+	font-family: sans-serif;
+	text-align: center;
+}
+header .kontenjer{
+	width: 100%;
+	margin: auto;
+	background-color: pink;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+footer h2{
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+footer .kontenjer{
+	width: 100%;
+	margin: auto;
+	background-color: pink; 
+	height: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+main p{
+	font-family: fantasy;
+	font-size: 100%;
+}
+main .kontenjer{
+	max-width: 1050px;
+	margin: auto;
+	background-color: hotpink;
+	padding: 20px;
+}
+main img{
+	width: 100%
+}
+body{
+	background: url(https://i.pinimg.com/originals/ab/ea/79/abea79bca2a159c2d134e290c03e02dd.jpg); 
+	padding: 5px;
+}

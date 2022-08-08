@@ -1,0 +1,127 @@
+<html id="basne4">
+<head>
+	<style>
+		button{
+			border: none;
+			width: 19.75%;
+			height: 12%;
+			font-size-adjust: inherit;
+
+		}
+		.prvo{
+			color: black;
+	        text-align: right;
+	        text-decoration: underline;
+
+		}
+		.prvo:hover {
+            background-color: black;
+            color: white;
+        }    
+        .drugo{
+        	color:rgb(200,50,40);
+        	text-align: right;
+        	text-decoration: overline;
+
+        }
+        .drugo:hover{
+        	 background-color: green;
+             color-border: 2px solid red;
+             transition-duration: 1s;
+        }
+        .drugo:hover {
+             background-color: green;
+             color: white;                     
+        }
+        .trece{
+        	color: rgb(225,46,71);
+	        text-align: center;
+	        text-decoration: none;
+        }
+        .trece:hover{
+        	background-color: rgb(43,65,23);
+        	color-border:5px blur blue;
+        	transition-duration: 0.8s;
+        }
+        .cetvrto{
+        	color:rgb(20,56,47);
+        	text-align: left;
+        	text-decoration: line-through;
+
+        }
+        .cetvrto:hover{
+        	background-color: white;
+        	color:rgb(30,150,60);
+        }
+        .peto{
+        	color:rgb(40,30,80);
+        	text-align: left;
+        	text-decoration: blink;
+
+        }
+
+		p{
+			text-align: left;
+			vertical-align: center;
+		}
+		img{
+			vertical-align: center;
+		}
+		.stranice{
+			display: inline-block;
+			height: 5%,
+			width: 5%;
+
+		}
+		.stranice a {
+            color: black;
+            float: left;
+            padding: 10% 25%;
+            align-items: center;
+        }    
+        .stranice a.active{
+        	background-color: black;
+        	color:white;
+        }
+        a.hover{
+        	background-color: black;
+        	color:white;
+        }      
+
+
+
+
+
+	</style>
+	<title>basne4</title>
+</head>
+<body>
+	<h1>BASNE</h1>
+
+<button class="prvo">Spisak basni</button>
+<button class="drugo">Definicija</button>
+<button class="trece">O piscu</button>
+<button class="cetvrto">Zanimljivosti</button>
+<button class="peto"><a href="#dole">Idi na dno stranice</a></button>	
+<h3>Magarac i konj</h3>
+<p>Magarac se mnogo mučio. Poslije najvećeg rada i napora nije dobio dosta pljeve. Stoga toliko oslabi da se jedva vukao pod teškim teretom.
+
+Jednog dana opazi lijepoga i ukrašenog konja. Smatrao ga je sretnim i zadovoljnim, pa mu je zavidio, što tako dobro i u izobilju živi, pa se želio s njime mijenjati.
+
+Nakon nekoliko mjeseci opazi ga šepavog i upregnutog u kola. “Je li to kakva čarolija?” zapita konja. “Gotovo,” odvrati mu konj žalosno. “Jedno me zrno u ratu pogodilo, te sam pao skupa sa svojim gospodarom, a poslije me prodao u bescjenje. Sad sam šepav i nemoćan. Ovakvom mi nećeš zaista zaviditi niti ćeš se htjeti sa mnom mijenjati.</p>
+<img src="https://www.gutenberg.org/files/39187/39187-h/images/i_045.jpg">
+<br>
+<br>
+  <div class="stranice">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#">3</a>
+    <a class="active" href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">&raquo;</a>
+  </div>
+  <div id="dole"></div>
+
+</body>
+</html>

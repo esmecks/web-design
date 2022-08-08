@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadaca</title>
+    <style>
+        #n1{
+            top: 200px;
+            left: 100px;
+            width: 200px;
+            height: 80px;
+            background-color: #F00;
+            font-size: large;
+            color: #00F;
+        }
+        #n2{
+            top: 100px;
+            left: 400px;
+            width: 150px;
+            height: 100px;
+        }
+        #n3{
+            top: 350px;
+            left: 500px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" name="n1" value="Promjenjivo dugme" onclick="Klik()" id="n1">
+    <input type="button" name="n2" value="Drugi zadatak" id="n2">
+    <input type="button" name="n3" value="Treci zadatak" id="n3">
+    <script>
+        function Klik(){
+            var a="Kliknuto";
+            document.getElementById("n1").value=a;
+        }
+    </script>
+</body>
+</html>

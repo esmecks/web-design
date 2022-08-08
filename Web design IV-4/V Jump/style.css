@@ -1,0 +1,22 @@
+.grid{
+    width: 480px;
+    height: 600px;
+    background-image: url(Pozadina.png);
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+}
+
+.Venos{
+    width: 87px;
+    height: 85px;
+    background-image: url(VenosChibi.png);
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-image: url(Platforma.png);
+    position: absolute;
+}

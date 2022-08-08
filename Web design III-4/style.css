@@ -1,0 +1,46 @@
+﻿body{
+    
+    background-color: antiquewhite;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 9px;
+    color: #ddb98a;
+    font-size: 25px;
+    border-radius: 10px;
+   
+}
+ul{
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+ul li{
+    background-color: #dbbc94;
+    border-radius: 50px;
+    width: 90%;
+    margin: 20px auto;
+    height: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    z-index: 2;
+        
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+ul li:hover{
+    background-color: brown;
+    transition: 2s;
+    transform: rotate(360deg);
+}
